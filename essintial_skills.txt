@@ -1,0 +1,17 @@
+A Bachelor’s/ Master's degree with >6.5 CGPA in Computer Science/Information 
+
+Science Engineering or equivalent combination of technical education.
+
+- Strong, object-oriented design and coding skills (C/C++ and/or Java preferably on a UNIX or Linux platform)
+
+- Good understanding of design patterns, data structures, algorithm
+
+- Experience with distributed systems, algorithms and relational databases
+
+- Excellent coding & problem solving skills
+
+- Ability to handle multiple competing priorities in a fast-paced environment
+
+- Ability to think about problem statement and build optimal solutions
+
+- Excellent verbal and written communication skills.

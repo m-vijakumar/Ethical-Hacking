@@ -1,0 +1,58 @@
+apt -y install sublist3r
+sublist3r -h //help
+sublist3r -d google.com -t 3 -e bing //to find subdomain with number of threats needed
+apt update && apt -y installl inspy // for installing inspy
+ls -ls /usr/share/inspy/worlists/   // to get into a folder 
+/* netcraft can be used to find about the websites*/
+/* burp suite is used to find packets to get details*/
+/*web spidering, web mirroring  */
+/* extracting info from websites and finding about members from archive.org */
+/*finding meta data from metagoogle*/
+/*email tracking open mail , more, show original, copy, */
+/*ipfingerprints.com  works kind of path pro*/
+/*tracert <hostname>  (in cmd prt) gives the hops taken*/
+/*maltego in kali is used for getting precise details about a web page*/
+/*in kali*/
+recon-ng
+show modules
+help
+workspaces  /*shows all the wrokspaces*/
+workspaces add <filename>
+workspace list
+workspace create <filename>
+db insert domains /*to create a domain*/
+db delete domains /*to delete a domain*/
+marketplace
+marketplaceinfo
+marketplace info netcraft
+
+modules load hackertarget
+options
+options list
+/*
+options set SOURCE <domain name>
+run
+*/
+marketplace info all
+back
+/*
+marketplace install <modulepath>
+marketplace load <modulepath>
+*/
+/*module lists*/ ->  netcraft, whois-pos, namechk
+paths-> /*recon/domains-contacts/whois-pos;;;;;recon/domains-host/netcraft;;;;;;recon/profiles-profiles/namechk*/
+apt -y install osrframework
+usufy.py -n <username> -p <websites>  //used to find a persons accounts
+searchfy.py -q "<username>" // find from all the platform
+/*metaploit*/-> /*open metapliot*/ -> msfconsole    ;   nmap -Pn -sS -A test 192.168.41.0/24
+/*for a dedicated scan*/ -> db_nmap -sS -A Test <IP>
+/*for scaning services*/ -> db_services
+/*for ports*/ -> search portscan
+/*to use a scan*/ -> use <path of scan>
+/*to see the options of a scan*/ -> show options
+/*to add the host*/-> set RHOSTS <IP>,  /*then*/ run
+search search /*to list all the scanners*/
+/**/
+munikotivijaykumar@gmail.com
+priyankatalks.21@gamil.com
+

