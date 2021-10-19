@@ -1,0 +1,12 @@
+nano /etc/proxychains.conf
+
+#dynamic chain to dunamic chain (delete hash)
+
+strict_chain to #strict_chain (add # )
+to stay anoynmos in internet
+
+add  socks5 proxy bottom of file
+
+by following syntax 
+
+type  ipaddress port

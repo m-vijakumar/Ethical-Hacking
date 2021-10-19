@@ -1,0 +1,27 @@
+
+Rootkits are software programs aimed to gain access to a computer without detection.
+> the goal of the rootkit is to gain root privileges to a system. 
+> It works by exploiting the vulnerabilities in the operating system and applications. 
+> Once the user enables root access, a rootkit may attempt to hide the traces of 
+   unauthorized access by modifying drivers or kernel modules and discarding active processes. 
+>  A typical rootkit comprises backdoor programs, DDoS programs, packet sniffers, log-wiping utilities, IRC bots, and others.
+>  All files contain a set of attributes.
+	.  The first field determines the format of the file, 
+	.  the time of the file creation
+	.  access,
+	.   as well as its original length.
+> the functions
+	. GetFileAttributeEx()
+	. GetFileInformationByHandle()
+> Attacker places a rootkit by:
+	  Scanning for vulnerable computers and servers on the web 
+	  Wrapping it in a special package like games
+	  Installing it on the public computers or corporate computers through social engineering
+	  Launching zero-day attack (privilege escalation, Windows kernel exploitation, etc.
+> Types Of RootKits
+	. Hypervisor Level Rootkit
+	. Hardware/Firmware Rootkit
+	. Kernel Level Rootkit
+	. Boot Loader Level Rootkit
+	. Application Level Rootkit
+	. Library Level Rootkit
